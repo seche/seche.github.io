@@ -188,6 +188,12 @@ section h2 {
 section.success {
   background: #4285f4;
   color: white;
+  background:repeating-linear-gradient(
+    to right,
+    #4285f4,
+    #4285f4 10px,
+    #5491f5 10px,
+    #5491f5 20px);
 }
 @media (max-width: 767px) {
   section {
