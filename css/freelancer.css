@@ -322,12 +322,6 @@ footer .footer-col {
 footer .footer-below {
   padding: 25px 0;
   background-color: #233140;
-  background:repeating-linear-gradient(
-    -45deg,
-    #2C3E50,
-    #2C3E50 10px,
-    #233140 10px,
-    #233140 20px);
 }
 .btn-outline {
   color: white;
