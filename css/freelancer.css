@@ -321,7 +321,7 @@ footer .footer-col {
 }
 footer .footer-below {
   padding: 25px 0;
-  background-color: #233140;
+  background-color: #1a242f;
 }
 .btn-outline {
   color: white;
@@ -393,8 +393,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
   color: white;
-  background-color: #128f76;
-  border-color: #11866f;
+  background-color: #0d5bdd;
+  border-color: #0a47ad;
 }
 .btn-success:active,
 .btn-success.active,
@@ -503,7 +503,7 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
-  background-color: #2C3E50;
+  background-color:footer-below #2C3E50;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
@@ -515,64 +515,11 @@ fieldset[disabled] .btn-success.active {
   opacity: 0;
   display: none;
 }
-#questions {
-	font-size:1.25em;
-	text-align:center;
-	max-width:42em;
-	padding-bottom:6em;
-}
-#questions a {
-	font-weight:600;
-}
-#questions h4 {
-	text-align:left;
-	line-height:1;
-	margin-bottom:.2em;
-	font-size:1.2em;
-}
-#questions p {
-	font-family:#bd2031;
-	font-weight:300;
-	color:#262829;
-	opacity:1;
-	line-height:1.3;
-	margin:0;
-	padding:0;
-	padding-bottom:.8em;
-}
-.question-item {
-	margin:0;
-	padding:0;
-	margin-bottom:2.5em;
-}
-.question-item .prompt {
-	display:none;
-}
-.question-item.hasmore {
-	cursor:pointer;
-}
-.question-item.hasmore .prompt {
-	position:relative;
-	padding:2px 4px 1px 4px;
-	text-transform:uppercase;
-	font-size:.8em;
-	line-height:2;
-	font-family:#bd2031;
-	font-weight:700;
-	color:white;
-	display:inline;
-	font-size:.55em;
-	background:#262829;
-	top:-2px;
-	line-height:1;
-	-webkit-transition:background 200ms;
-	-moz-transition:background 200ms;
-	-ms-transition:background 200ms;
-	-o-transition:background 200ms;
-}
-.question-item.hasmore .more {
-	display:none;
-}
-.question-item:hover .prompt {
-	background:#e95a50;
+.question-item p a,
+.question-item p a:hover,
+.question-item p a:focus,
+.question-item p a:active,
+.question-item p a.active {
+  color: #233140;
+  outline: none;
 }

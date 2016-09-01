@@ -40,5 +40,4 @@
             $(this).removeClass("floating-label-form-group-with-focus");
         });
     });
-
 })(jQuery); // End of use strict
