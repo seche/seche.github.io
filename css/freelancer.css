@@ -540,18 +540,18 @@ fieldset[disabled] .btn-success.active {
 	padding:0;
 	padding-bottom:.8em;
 }
-#questions .question-item {
+.question-item {
 	margin:0;
 	padding:0;
 	margin-bottom:2.5em;
 }
-#questions .question-item .prompt {
+.question-item .prompt {
 	display:none;
 }
-#questions .question-item.hasmore {
+.question-item.hasmore {
 	cursor:pointer;
 }
-#questions .question-item.hasmore .prompt {
+.question-item.hasmore .prompt {
 	position:relative;
 	padding:2px 4px 1px 4px;
 	text-transform:uppercase;
@@ -570,9 +570,9 @@ fieldset[disabled] .btn-success.active {
 	-ms-transition:background 200ms;
 	-o-transition:background 200ms;
 }
-#questions .question-item.hasmore .more {
+.question-item.hasmore .more {
 	display:none;
 }
-#questions .question-item:hover .prompt {
+.question-item:hover .prompt {
 	background:#e95a50;
 }
