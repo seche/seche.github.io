@@ -60,14 +60,14 @@ hr.star-light {
 }
 hr.star-light:after {
   background-color: #4285f4;
-  color: white;
+  color: red;
 }
 hr.star-primary {
   border-color: #2C3E50;
 }
 hr.star-primary:after {
   background-color: white;
-  color: #2C3E50;
+  color: red;
 }
 .img-centered {
   margin: 0 auto;
