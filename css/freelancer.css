@@ -3,6 +3,11 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+@font-face {
+  font-family: "Symbola";
+  src: url(../fonts/Symbola.ttf) format("truetype");
+}
+ 
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
@@ -43,7 +48,7 @@ hr.star-primary {
 hr.star-light:after,
 hr.star-primary:after {
   content: "\1F341";
-  font-family: FontAwesome;
+  font-family: Symbola, FontAwesome;
   display: inline-block;
   position: relative;
   top: -0.8em;
