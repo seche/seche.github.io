@@ -1,8 +1,13 @@
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: $secondary;
   color: $white;
+  background:repeating-linear-gradient(
+                  45deg,
+                  $secondary,
+                  $secondary 10px,
+                  $auxiliary 10px,
+                  $auxiliary 20px);
 }
 
 .copyright {

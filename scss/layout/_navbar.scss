@@ -4,6 +4,12 @@
   padding-bottom: 1rem;
   font-family: $headings-font-family;
   font-weight: $headings-font-weight;
+  background:repeating-linear-gradient(
+                  45deg,
+                  $secondary,
+                  $secondary 10px,
+                  $auxiliary 10px,
+                  $auxiliary 20px);
   .navbar-brand {
     color: $white;
   }
@@ -35,6 +41,12 @@
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     transition: padding-top 0.3s, padding-bottom 0.3s;
+    background:repeating-linear-gradient(
+                    45deg,
+                    $secondary,
+                    $secondary 10px,
+                    $auxiliary 10px,
+                    $auxiliary 20px);
     .navbar-brand {
       font-size: 1.75em;
       transition: font-size 0.3s;

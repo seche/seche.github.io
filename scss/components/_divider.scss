@@ -20,7 +20,7 @@
     }
   }
   .divider-custom-icon {
-    color: $secondary !important;
+    color: $red !important;
     font-size: 2rem;
   }
   &.divider-light {
@@ -28,7 +28,7 @@
       background-color: $white;
     }
     .divider-custom-icon {
-      color: $white !important;
+      color: $red !important;
     }
   }
 }
